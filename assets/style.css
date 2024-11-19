@@ -50,7 +50,18 @@ body {
     font-weight: 700;
   }
   .cartao.active .cartao_conteudo{
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
+  }
+
+  .cartao_conteudo_pergunta,
+  .cartao_conteudo_resposta {
+    backface-visibility: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  .cartao_conteudo_resposta{
+    transform: rotateY(180deg);
+  }
   }
   footer {
     background-color: rgb(255, 255, 255);
