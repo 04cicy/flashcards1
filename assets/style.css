@@ -49,6 +49,9 @@ body {
     color: var(--card-back-color);
     font-weight: 700;
   }
+  .cartao.active .cartao_conteudo{
+    transform: rotateY('180deg');
+  }
   footer {
     background-color: rgb(255, 255, 255);
     color: white;
