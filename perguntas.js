@@ -20,7 +20,7 @@ CriaCartao(
  )
  CriaCartao(
     "Quimica",
-    "O que a quimica estua?",
+    "O que a quimica estuda?",
     ""
  )
  CriaCartao(
